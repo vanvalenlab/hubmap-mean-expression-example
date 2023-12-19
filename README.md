@@ -18,8 +18,8 @@ to directly produce celltype predictions. This is availble to consortium members
 at <https://github.com/hubmapconsortium/deepcelltypes-hubmap>.
 
 The CWL workflow referenced above adds one more output to the CODEX Cytokit+SPRM
-pipeline: a .csv file containing the cell type predictions with the following
-structure:
+pipeline: a .csv file called `deepcelltypes_predictions.csv` containing the cell type
+predictions with the following structure:
 
 ```
 mask_index,centroid_x,centroid_y,predicted_celltype
